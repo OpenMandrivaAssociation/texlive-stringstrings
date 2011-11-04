@@ -57,6 +57,7 @@ fashion) to achieve rather complex manipulations.
 #- source
 %doc %{_texmfdistdir}/source/latex/stringstrings/stringstrings.dtx
 %doc %{_texmfdistdir}/source/latex/stringstrings/stringstrings.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +68,5 @@ fashion) to achieve rather complex manipulations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
