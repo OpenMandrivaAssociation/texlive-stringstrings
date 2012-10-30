@@ -1,12 +1,12 @@
-# revision 17906
+# revision 28022
 # category Package
 # catalog-ctan /macros/latex/contrib/stringstrings
-# catalog-date 2010-04-16 13:31:22 +0200
+# catalog-date 2012-10-10 00:01:11 +0200
 # catalog-license lgpl
-# catalog-version 1.20
+# catalog-version 1.21
 Name:		texlive-stringstrings
-Version:	1.20
-Release:	2
+Version:	1.21
+Release:	1
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
