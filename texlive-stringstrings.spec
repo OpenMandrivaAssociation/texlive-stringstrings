@@ -1,12 +1,12 @@
-# revision 17906
+# revision 30093
 # category Package
 # catalog-ctan /macros/latex/contrib/stringstrings
-# catalog-date 2010-04-16 13:31:22 +0200
+# catalog-date 2012-10-10 00:01:11 +0200
 # catalog-license lgpl
-# catalog-version 1.20
+# catalog-version 1.21
 Name:		texlive-stringstrings
-Version:	1.20
-Release:	2
+Version:	1.21
+Release:	1
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
@@ -57,17 +57,3 @@ fashion) to achieve rather complex manipulations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.20-2
-+ Revision: 756254
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.20-1
-+ Revision: 719594
-- texlive-stringstrings
-- texlive-stringstrings
-- texlive-stringstrings
-- texlive-stringstrings
-
