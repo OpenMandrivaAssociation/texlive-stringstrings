@@ -6,7 +6,7 @@
 # catalog-version 1.21
 Name:		texlive-stringstrings
 Version:	1.21
-Release:	2
+Release:	3
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
