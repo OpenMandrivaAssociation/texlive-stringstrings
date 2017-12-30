@@ -5,8 +5,8 @@
 # catalog-license lgpl
 # catalog-version 1.21
 Name:		texlive-stringstrings
-Version:	1.21
-Release:	9
+Version:	1.23
+Release:	1
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
