@@ -1,19 +1,13 @@
-# revision 30093
-# category Package
-# catalog-ctan /macros/latex/contrib/stringstrings
-# catalog-date 2012-10-10 00:01:11 +0200
-# catalog-license lgpl
-# catalog-version 1.21
 Name:		texlive-stringstrings
-Version:	1.23
-Release:	3
+Version:	57097
+Release:	1
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
 License:	LGPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -32,12 +26,12 @@ macros may be strung together sequentially and nested (after a
 fashion) to achieve rather complex manipulations.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -50,7 +44,8 @@ fashion) to achieve rather complex manipulations.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
