@@ -1,6 +1,6 @@
 Name:		texlive-stringstrings
 Version:	57097
-Release:	1
+Release:	2
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
