@@ -3,7 +3,7 @@ Version:	57097
 Release:	2
 Summary:	String manipulation for cosmetic and programming application
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/stringstrings
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stringstrings.doc.r%{version}.tar.xz
